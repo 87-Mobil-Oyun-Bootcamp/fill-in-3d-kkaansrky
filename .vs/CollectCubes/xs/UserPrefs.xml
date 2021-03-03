@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{015787F9-8BD8-E68F-E3FA-4C4955A4E9AE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameObjects/Player/PlayerController.cs">
+    <Files>
+      <File FileName="Assets/GameObjects/Player/PlayerController.cs" Line="28" Column="1" />
+      <File FileName="Assets/GameObjects/GameManager/GameManager.cs" Line="38" Column="6" />
+      <File FileName="Assets/GameObjects/CollectArea/CollectAreaController.cs" Line="4" Column="1" />
+      <File FileName="Assets/GameObjects/Blocks/BlockController.cs" Line="57" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CollectCubes" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="GameObjects" expanded="True">
+                <Node name="Blocks" expanded="True">
+                  <Node name="Script" expanded="True" />
+                </Node>
+                <Node name="CollectArea" expanded="True" />
+                <Node name="GameManager" expanded="True" />
+                <Node name="Player" expanded="True">
+                  <Node name="PlayerController.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fbd9ceaa-8c7e-4e37-b56c-45ce7de3b818" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
