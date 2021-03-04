@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 53d54070b9c444296a482dcf8213fb73
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - levelInfoAsset: {fileID: 11400000, guid: c834a23eef893425cb48abc6ca039e61, type: 2}
+  - slider: {instanceID: 0}
+  - blockContainer: {instanceID: 0}
+  - blockContainer2: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
