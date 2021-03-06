@@ -12,7 +12,7 @@ public class BlockController : MonoBehaviour
 {
 
     Color color;
-    Vector3 deneme;
+    Vector3 pos;
     bool ısHere = true;
     public BlockState BlockState
     {
@@ -56,7 +56,7 @@ public class BlockController : MonoBehaviour
 
         BlockState = BlockState.Default;
         color = GetComponent<MeshRenderer>().material.color;
-        deneme = transform.position;
+        pos = transform.position;
         gameObject.GetComponent<MeshRenderer>().material.color = Color.yellow;
     }
 
@@ -80,7 +80,7 @@ public class BlockController : MonoBehaviour
                 GetComponent<Collider>().enabled = false;
                 other.GetComponent<Collider>().enabled = false;
                 other.gameObject.transform.eulerAngles = new Vector3(0, 0, 0);
-                other.gameObject.transform.position = new Vector3(deneme.x, deneme.y + 0.10f, deneme.z);
+                other.gameObject.transform.position = new Vector3(pos.x, pos.y + 0.10f, pos.z);
                 other.GetComponent<Renderer>().material.color = color;
 
                 other.gameObject.layer = LayerMask.NameToLayer("aaaa");

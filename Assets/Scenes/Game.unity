@@ -1114,6 +1114,7 @@ MonoBehaviour:
   slider: {fileID: 1618905015}
   blockContainer: {fileID: 323319464}
   blockContainer2: {fileID: 637038695}
+  player: {fileID: 627021553}
 --- !u!114 &896300765
 MonoBehaviour:
   m_ObjectHideFlags: 0

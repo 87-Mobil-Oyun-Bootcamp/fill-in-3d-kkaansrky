@@ -18,9 +18,16 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody body;
 
+    Vector3 pos;
+    Quaternion rot;
+
+    
+
     void Awake()
     {
         body = GetComponent<Rigidbody>();
+        pos = transform.position;
+        rot = transform.rotation;
     }
 
     void Update(){
@@ -65,5 +72,10 @@ public class PlayerController : MonoBehaviour
                 body.velocity=direction.normalized * speed;             
             }          
         }     
+    }
+
+    public void setFirstLocation(){
+        gameObject.transform.position = pos;
+        gameObject.transform.rotation = rot;
     }
 }

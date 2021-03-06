@@ -25,6 +25,8 @@ public class LevelManager : MonoBehaviour
     int currentLevelIndex = 0;
 
     BlockSpawner blockSpawner = new BlockSpawner();
+
+    [SerializeField] GameObject player;
     
     List<BlockController> createdBlocks = new List<BlockController>();
     List<BlockController> collectedBlocks = new List<BlockController>();
@@ -63,6 +65,7 @@ public class LevelManager : MonoBehaviour
 
         if (levelInfoAsset.levelInfos.Count >= currentLevelIndex)
         {
+            player.GetComponent<PlayerController>().setFirstLocation();
             clearAll();
             CreateNextLevel();
             return true;
